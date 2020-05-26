@@ -66,7 +66,7 @@ Segregating relevant and irrelevant emails is an important step to refine the em
 * LatentDirichletAllocation module from Gensim decomposition package.  
 * Since it’s a probabilistic model, it uses raw term counts. Thus, we first create a term-document matrix and use it for feature extraction.  
   
-![LDA](./Images/LDA-HP1.png)  
+![LDA](./Images/LDAHyp.png)  
   
 #### Non-Negative Matrix Factorization `NMF.ipynb`   
    
