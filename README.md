@@ -57,12 +57,17 @@ Segregating relevant and irrelevant emails is an important step to refine the em
 ![Clustering](./Images/Clustering-PCA-TSNE.png)  
   
 ### Topic Modelling   
-#### Latent Semantic Analysis `LSA.ipynb` <i>LSA is a distributional semantics method of analyzing relationships among documents and the terms they contain by producing a set of topics linking the documents and terms.</i>  
+
+#### Latent Semantic Analysis `LSA.ipynb` 
+
+<i>LSA is a distributional semantics method of analyzing relationships among documents and the terms they contain by producing a set of topics linking the documents and terms.</i>  
 * Gensim LsiModel - Fast TruncatedSVD is used  
   
 ![LSA](./Images/LSAHyp.png)  
   
-#### Latent Dirichlet Allocation `LDA.ipynb` <i>LDA is a generative probabilistic model for collections of discrete datasets such as email text data. This method is used for discovering abstract topics from a collection of over 5 million emails. <i/>  
+#### Latent Dirichlet Allocation `LDA.ipynb` 
+
+<i>LDA is a generative probabilistic model for collections of discrete datasets such as email text data. This method is used for discovering abstract topics from a collection of over 5 million emails. <i/>  
 * LatentDirichletAllocation module from Gensim decomposition package.  
 * Since it’s a probabilistic model, it uses raw term counts. Thus, we first create a term-document matrix and use it for feature extraction.  
   
@@ -70,7 +75,7 @@ Segregating relevant and irrelevant emails is an important step to refine the em
   
 #### Non-Negative Matrix Factorization `NMF.ipynb`   
    
- <i>NMF is a linear algebra based technique that factorizes high dimension vectors into a lowdimensionality representation. It has a unique property, which states that the lower dimension representations have no negative elements</i>  
+<i>NMF is a linear algebra based technique that factorizes high dimension vectors into a lowdimensionality representation. It has a unique property, which states that the lower dimension representations have no negative elements</i>  
    
  * NMF method from the Gensim module gets the clusters from the document and the membership weights for each cluster in every document.  
  * Hyperparameter tuning is based on the number of topics(K).   
