@@ -67,7 +67,7 @@ Segregating relevant and irrelevant emails is an important step to refine the em
   
 #### Latent Dirichlet Allocation `LDA.ipynb` 
 
-<i>LDA is a generative probabilistic model for collections of discrete datasets such as email text data. This method is used for discovering abstract topics from a collection of over 5 million emails. <i/>  
+<i>LDA is a generative probabilistic model for collections of discrete datasets such as email text data. This method is used for discovering abstract topics from a collection of over 5 million emails.</i>  
 * LatentDirichletAllocation module from Gensim decomposition package.  
 * Since it’s a probabilistic model, it uses raw term counts. Thus, we first create a term-document matrix and use it for feature extraction.  
   
