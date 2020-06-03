@@ -5,8 +5,7 @@
   
 <i>Enron Scandal, publicized in October 2001, led to one of the largest corporate bankruptcy in the United States, and is cited as the biggest audit failure in American history. </i>  
   
-This project aims to build and provide unsupervised data models which would help analyze and detect anomalies and interesting  
-patterns in the data.  
+This project aims to build and provide unsupervised data models which would help analyze and detect anomalies and interesting patterns in the data.  
   
 ### Steps Performed : 
 <p> For this project, we are performing a social-network analysis of the email data by carrying out topic analysis using various machine learning techniques.</p>  
