@@ -8,7 +8,8 @@
 This project aims to build and provide unsupervised data models which would help analyze and detect anomalies and interesting  
 patterns in the data.  
   
-### Steps Performed : <p> For this project, we are performing a social-network analysis of the email data by carrying out topic analysis using various machine learning techniques.</p>  
+### Steps Performed : 
+<p> For this project, we are performing a social-network analysis of the email data by carrying out topic analysis using various machine learning techniques.</p>  
 <p> Our end goal is to produce deliverable to separate important or relevant emails from junk emails, identify senders, receivers, and </p> <p>Establish a network before performing an in-depth analysis and topic modeling, which could <b>primarily aid fraud detection</b>.</p>  
   
 ## Running the Project  
